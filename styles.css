@@ -1,0 +1,40 @@
+
+#background-vid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+body
+{
+  background-color: black;
+  font-family: Arial;
+}
+#background-container
+{
+  background-color: white;
+  filter: opacity(1);
+}
+#music-player
+{
+
+}
+#bio
+{
+  color: white;
+}
+video
+{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* filter: brightness(30%); */
+  /* filter: blur(3px); */
+}
+ .viewport-header {
+  position: relative;
+}
