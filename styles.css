@@ -1,24 +1,45 @@
-
-#background-vid {
+@keyframes fadeIn
+{
+  0% {
+    opacity: 0;
+  }
+}
+#background-vid
+{
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
 }
 body
 {
   background-color: black;
   font-family: Arial;
+  height: 50%;
+  width: auto;
+}
+#carousel-container
+{
+  height: 75%;
+  width: 75%;
 }
 #background-container
 {
   background-color: white;
   filter: opacity(1);
 }
-#music-player
+#intro-music-player
 {
-
+  opacity: 0.75;
+  text-align: center;
+  border: 0;
+  width: 50%;
+  height: 42px;
+}
+#enter-site
+{
+  font-weight: bold;
+  color: white;
+  font-size: 125%;
 }
 #bio
 {
@@ -35,6 +56,55 @@ video
   /* filter: brightness(30%); */
   /* filter: blur(3px); */
 }
- .viewport-header {
+ .viewport-header
+{
   position: relative;
 }
+.carousel-container
+{
+  margin: auto;
+}
+.carousel-item
+{
+  width: 50vw;
+  height: 75vh;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.carousel-icon, .carousel-icon:hover, .carousel-icon:active, .carousel-item::after {
+  background-color: black;
+  border-radius: 60%;
+  opacity: 50%;
+}
+#album-art-background
+{
+
+}
+.carousel-control
+{
+  margin: auto;
+  padding: inherit;
+  height: 10px;
+}
+.footer {
+  position: fixed;
+  padding-top: 50px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: inherit;
+  color: white;
+  text-align: center;
+}
+.fa
+{
+  color: white;
+  font-size: 150%;
+  margin: 20px;
+  margin-top: 50px;
+}
+/*
+{
+  background-image: url("astral_hand_assets/astral_hand_logo_alt.png");
+} */
