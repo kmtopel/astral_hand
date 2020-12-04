@@ -14,60 +14,81 @@
     <title>Astral Hand</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container text-center overflow overflow-auto">
       <div class="row">
-        <img class=" w-100 img-responsive" src="astral_hand_assets/astral_hand_lock_up.png">
+        <img class="img img-fluid" src="astral_hand_assets/astral_hand_lock_up.png">
       </div>
       <div class="row">
-        <!-- <div id="announcement-modal" class="modal fade" tabindex="2" role="dialog" aria-labelledby="announcement-modal" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-              </button>
-              <div class="modal-body">
-                <p>A team of four psychonauts have permanently left their earthly roots behind in search of something which exists outside of time and space.</p>
-                <p>Debut full length album coming soon...</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-            </div>
-          </div> -->
-        </div>
-        <div id="carousel-container" class="container">
-          <div id="carousel-controls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block img-fluid" src="astral_hand_assets/astral_hand_band.jpg" alt="">
-              </div>
-              <div class="carousel-item">
-                <iframe id="carousel-music-player" style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=705597016/size=small/bgcol=ffffff/linkcol=333333/artwork=none/transparent=true/" seamless><a href="https://astralhand.bandcamp.com/track/navigator-single">Navigator (Single) by ASTRAL HAND</a></iframe>
-                <img id="album-art-background"class="d-block img-fluid" src="astral_hand_assets/album_art.jpg" alt="">
-              </div>
-              <div class="carousel-item">
-                <p id="bio" class="d-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-            </div>
-            <a class="carousel-control-prev carousel-control" role="button" data-slide="prev" href="#carousel-controls">
-              <span class="carousel-control-prev-icon carousel-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next carousel-control" role="button" data-slide="next" href="#carousel-controls">
-              <span class="carousel-control-next-icon carousel-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
+        <div class="col text-center">
+          <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=705597016/size=small/bgcol=ffffff/linkcol=333333/artwork=none/transparent=true/" seamless><a href="https://astralhand.bandcamp.com/track/navigator-single">Navigator (Single) by ASTRAL HAND</a></iframe>
         </div>
       </div>
-      <div class="footer">
-        <a class="fa fa-facebook" target="_blank" href="https://www.facebook.com/astralhandband"></a>
-        <a class="fa fa-twitter" target="_blank" href="https://twitter.com/AstralHand"></a>
-        <a class="fa fa-bandcamp" target="_blank" href="https://astralhand.bandcamp.com/"></a>
+      <div class="row">
+        <div class="col">
+          <img class="img img-fluid" src="astral_hand_assets/astral_hand_band.jpg" alt="Sorry, there was an error loading this file...">
+        </div>
+      </div>
+  <div id="accordion" class="text-center">
+    <div class="card">
+      <div class="card-header" id="bio">
+        <h5 class="mb-0">
+          <button class="btn btn-link active" data-toggle="collapse" data-target="#bio-content" aria-expanded="true" aria-controls="bio-content">
+          Bio
+          </button>
+        </h5>
+      </div>
+
+      <div id="bio-content" class="collapse show" aria-labelledby="bio" data-parent="#accordion">
+        <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
       </div>
     </div>
 
+    <div class="card">
+      <div class="card-header" id="press">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#press-content" aria-expanded="false" aria-controls="collapseTwo">
+          Press
+          </button>
+        </h5>
+      </div>
+      <div id="press-content" class="collapse" aria-labelledby="press-content" data-parent="#accordion">
+      <div class="card-body">
+        <ul class="float-left" id="press-list">
+          <li><a href="https://radiomilwaukee.org/discover-music/milwaukee-music/calliope-debuts-its-cosmic-evolution-as-astral-hand-with-new-single-universe-machine/">Calliope debuts its cosmic evolution as Astral Hand with new single "Universal Machine"</a></li>
+          <li> <a href="https://milwaukeerecord.com/music/calliope-says-farewell-for-now-morphs-into-cosmic-astral-hand/">Calliope says farewell (for now), morphs into cosmic Astral Hand</a></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="contact">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#contact-content" aria-expanded="false" aria-controls="contact-content">
+          Contact
+          </button>
+        </h5>
+      </div>
+      <div id="contact-content" class="collapse" aria-labelledby="contact-content" data-parent="#accordion">
+        <div class="card-body">
+          <ul>
+            <li><a href="mailto:astralhandband@gmail.com" target="#">astralhandband@gmail.com</a></li>
+            <li><div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="button" data-action="like" data-size="small" data-share="false"></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="footer">
+      <a class="fa fa-facebook" target="_blank" href="https://www.facebook.com/astralhandband"></a>
+      <a class="fa fa-twitter" target="_blank" href="https://twitter.com/AstralHand"></a>
+      <a class="fa fa-bandcamp" target="_blank" href="https://astralhand.bandcamp.com/"></a>
+    </div>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="Le7nRRz0"></script>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
