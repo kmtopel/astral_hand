@@ -1,35 +1,24 @@
-#background-vid
-{
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  height: 100%;
+.vid-caption {
+  text-shadow: 1px 1px 1px #4d4d4d;
+    /* background-color: black; */
+    /* opacity: 0.5 */
+}
+
+@font-face {
+  font-family: avantGardeGothic;
+  src: url(/astral_hand_assets/fonts/texgyreadventor-bold.otf);
 }
 body
 {
+  font-family: avantGardeGothic;
+  color: white;
+  font-size: 115%;
   background-color: black;
-  font-family: Arial;
-  /* height: 50%; */
   width: auto;
 }
 #bio
 {
   color: white;
-}
-#enter-site
-{
-  font-weight: bold;
-  color: white;
-  font-size: 125%;
-}
-video
-{
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
 }
 .footer
 {
@@ -70,12 +59,7 @@ li
 {
   color: white;
 }
-#pg-announcement {
-  /* background-image: url("astral_hand_assets/astral_hand_animation.mp4"); */
-  /* background-size: cover; */
-  background-color: inherit;
-  color: white;
-}
+
 a, a:hover, a:active, a::after, a::before {
   color: white;
   text-decoration: none;
@@ -84,35 +68,51 @@ a, a:hover, a:active, a::after, a::before {
 {
   font-size: 80%;
 }
-#nav-btns
-{
-  z-index: 1;
-  position: fixed;
-  top: 50%;
-  padding: 5px;
-  right: 30px;
+/* delete everything below this */
+@font-face {
+  font-family: option1;
+  src: url(/astral_hand_assets/fonts/AvantGarde-Bold.otf);
 }
-.nav-btn
-{
-  opacity: 0;
-  background-color: black;
-  /* border-radius: 50%; */
-  padding: 5px;
-  margin: 5px;
-  color: white;
-  text-decoration: none;
-  border: none;
+#opt1 {
+  font-family: option1;
 }
-section
-{
 
+@font-face {
+  font-family: option2;
+  src: url(/astral_hand_assets/fonts/AvantGarde-BoldObl.otf);
 }
-#header-image
-{
-  position: -webkit-sticky
+#opt2 {
+  font-family: option2;
 }
-/* .jumbotron
-{
-  background-image: url("astral_hand_assets/astral_hand_animation.mp4");
-  background-size: cover;
-} */
+
+@font-face {
+  font-family: option3;
+  src: url(/astral_hand_assets/fonts/AvantGarde-Demi.ttf);
+}
+#opt3 {
+  font-family: option3;
+}
+
+@font-face {
+  font-family: option4;
+  src: url(/astral_hand_assets/fonts/ITC Avant Garde Gothic Medium.otf);
+}
+#opt4 {
+  font-family: option4;
+}
+
+@font-face {
+  font-famliy: option5;
+  src: url(/astral_hand_assets/fonts/texgyreadventor-bold.otf;
+}
+#opt5 {
+  font-family: option5;
+}
+
+@font-face {
+  font-family: option6;
+  src: url(/astral_hand_assets/fonts/texgyreadventor-regular.otf);
+}
+#opt6 {
+  font-family: option6;
+}
