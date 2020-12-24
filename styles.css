@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: avantGardeGothic;
-  src: url(/astral_hand_assets/fonts/texgyreadventor-bold.otf);
+  src: url(astral_hand_assets/fonts/texgyreadventor-bold.otf);
 }
 body
 {
@@ -71,7 +71,7 @@ a, a:hover, a:active, a::after, a::before {
 /* delete everything below this */
 @font-face {
   font-family: option1;
-  src: url(/astral_hand_assets/fonts/AvantGarde-Bold.otf);
+  src: url(astral_hand_assets/fonts/AvantGarde-Bold.otf);
 }
 #opt1 {
   font-family: option1;
@@ -79,7 +79,7 @@ a, a:hover, a:active, a::after, a::before {
 
 @font-face {
   font-family: option2;
-  src: url(/astral_hand_assets/fonts/AvantGarde-BoldObl.otf);
+  src: url(astral_hand_assets/fonts/AvantGarde-BoldObl.otf);
 }
 #opt2 {
   font-family: option2;
@@ -87,7 +87,7 @@ a, a:hover, a:active, a::after, a::before {
 
 @font-face {
   font-family: option3;
-  src: url(/astral_hand_assets/fonts/AvantGarde-Demi.ttf);
+  src: url(astral_hand_assets/fonts/AvantGarde-Demi.ttf);
 }
 #opt3 {
   font-family: option3;
@@ -95,7 +95,7 @@ a, a:hover, a:active, a::after, a::before {
 
 @font-face {
   font-family: option4;
-  src: url(/astral_hand_assets/fonts/ITC Avant Garde Gothic Medium.otf);
+  src: url(astral_hand_assets/fonts/ITC Avant Garde Gothic Medium.otf);
 }
 #opt4 {
   font-family: option4;
@@ -103,7 +103,7 @@ a, a:hover, a:active, a::after, a::before {
 
 @font-face {
   font-famliy: option5;
-  src: url(/astral_hand_assets/fonts/texgyreadventor-bold.otf;
+  src: url(astral_hand_assets/fonts/texgyreadventor-bold.otf;
 }
 #opt5 {
   font-family: option5;
@@ -111,7 +111,7 @@ a, a:hover, a:active, a::after, a::before {
 
 @font-face {
   font-family: option6;
-  src: url(/astral_hand_assets/fonts/texgyreadventor-regular.otf);
+  src: url(astral_hand_assets/fonts/texgyreadventor-regular.otf);
 }
 #opt6 {
   font-family: option6;
