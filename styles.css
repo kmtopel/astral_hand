@@ -5,12 +5,12 @@
 }
 
 @font-face {
-  font-family: avantGardeGothic;
-  src: url(astral_hand_assets/fonts/texgyreadventor-bold.otf);
+  font-family: avantGardepro;
+  src: url(astral_hand_assets/fonts/ITCAvantGardePro-Demi.otf);
 }
 body
 {
-  font-family: avantGardeGothic;
+  font-family: avantGardepro;
   color: white;
   font-size: 115%;
   background-color: black;
