@@ -1,4 +1,3 @@
-
 .vid-caption {
   text-shadow: 1px 1px 1px #4d4d4d;
     /* background-color: black; */
@@ -72,4 +71,15 @@ a:hover {
 #copyright
 {
   font-size: 80%;
+}
+#vid-loop {
+  object-fit: cover;
+  width: 100%;
+  overflow:hidden;
+}
+#vid-caption {
+  margin-bottom: 25px;
+}
+#vid-container {
+
 }
