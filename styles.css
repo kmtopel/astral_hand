@@ -15,6 +15,7 @@ body
   font-size: 115%;
   background-color: black;
   width: auto;
+
 }
 #bio
 {
@@ -80,6 +81,7 @@ a:hover {
 #vid-caption {
   margin-bottom: 25px;
 }
-#vid-container {
-
+#mobile {
+  background-image: url(astral_hand_assets/astral_hand_animation.mp4);
+  background-size: cover;
 }
