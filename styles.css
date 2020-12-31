@@ -27,7 +27,7 @@ body
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: black;
+  background-color: none;
   color: white;
   text-align: center;
 }
@@ -80,8 +80,4 @@ a:hover {
 }
 #vid-caption {
   margin-bottom: 25px;
-}
-#mobile {
-  background-image: url(astral_hand_assets/astral_hand_animation.mp4);
-  background-size: cover;
 }
