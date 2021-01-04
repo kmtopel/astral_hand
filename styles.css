@@ -1,7 +1,5 @@
 .vid-caption {
   text-shadow: 1px 1px 1px #4d4d4d;
-    /* background-color: black; */
-    /* opacity: 0.5 */
 }
 
 @font-face {
@@ -80,4 +78,8 @@ a:hover {
 }
 #vid-caption {
   margin-bottom: 25px;
+}
+.larger-icons {
+  font-size: 150%;
+  margin-top: 0px;
 }
