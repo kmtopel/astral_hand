@@ -1,27 +1,92 @@
-.vid-caption {
-  text-shadow: 1px 1px 1px #4d4d4d;
-}
-
+* {box-sizing: border-border-box;}
 @font-face {
   font-family: avantGardepro;
   src: url(astral_hand_assets/fonts/ITCAvantGardePro-Demi.otf);
 }
-body
-{
-  font-family: avantGardepro;
-  color: white;
-  font-size: 115%;
+body {
   background-color: black;
-  width: auto;
-
-}
-#bio
-{
   color: white;
+  font-family: avantGardepro;
+}
+.photo-grid {
+  width: 40%;
+  overflow: hidden;
+}
+.row-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+.center-text {
+    text-align: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.col {
+  align-content: center;
+}
+.box {
+  box-sizing: content-box;
+}
+.accordion-content {
+  display: none;
+}
+.thumbnail {
+  max-width: 100px;
+  height: 100px;
+}
+.slide {
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 85%;
+  height: auto;
+  display: none;
+}
+.dot {
+  cursor: pointer;
+  border: 2px solid white;
+  height: 50px;
+  width: 50px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.prev, .next {
+  z-index: 1;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 150%;
+  margin: auto;
+}
+.next {
+  right: 0;
+  margin-right: 30%;
+  order: 3
+}
+.prev {
+  order: 1
+  left: 0;
+  margin-left: 30%;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 .footer
 {
-  position: absolute;
+  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
@@ -29,57 +94,45 @@ body
   color: white;
   text-align: center;
 }
-.fa, .fa:hover {
-  color: white;
-  font-size: 150%;
-  margin: 20px;
-  margin-top: 50px;
-  text-decoration: none;
-}
-.card
-{
-  background-color: inherit;
-  color: white;
-}
-btn, btn:active, btn:hover !important {
-  color: white;
-  text-decoration: none;
-}
-ul
-{
-  list-style-type: none;
-  font-size: 90%;
-}
-li
-{
-  margin: 10px;
-}
-#fb-like-btn
-{
-  color: white;
-}
+.emboss-text {
+  text-shadow: 0px -1px 0px rgba(255,255,255,.5);
 
-a, a:active, a::after, a::before {
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 200%;
+  margin-left: 20;
+}
+.quote-link {
   color: white;
   text-decoration: none;
 }
-a:hover {
-  color: white;
+.quote-link:hover {
   text-decoration: underline;
 }
-#copyright
-{
-  font-size: 80%;
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
-#vid-loop {
-  object-fit: cover;
-  width: 100%;
-  overflow:hidden;
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
-#vid-caption {
-  margin-bottom: 25px;
+#media {
+  display: flex;
+  flex-direction: row;
 }
-.larger-icons {
-  font-size: 150%;
-  margin-top: 0px;
+#animation {
+  align-self: center;
+}
+#announcement {
+  text-align: center;
+  background-image: url(astral_hand_assets/galaxy.jpg);
+  background-size:cover;
+  border-radius: 200%;
+  padding: 10%;
+  position: inherit;
+  box-shadow: 18px 18px 18px 18px black inset;
 }
