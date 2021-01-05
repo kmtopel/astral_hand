@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles_new.css">
+    <title>ASTRAL HAND</title>
+  </head>
+
+  <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0&appId=209479510712229&autoLogAppEvents=1" nonce="m9W2OTbl"></script>
+    <script async src="//www.instagram.com/embed.js"></script>
+    <div id="header-row" class="row">
+      <img src="astral_hand_assets/FONTLOGO1.png" alt="">
+    </div>
+
+    <div id="thumbnails" class="row">
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a href="#animation">
+        <img class="thumbnail dot" src="astral_hand_assets/astral_hand_icon.png" onclick="currentSlide(1)">
+      </a>
+      <a href="#band-pic">
+        <img class="thumbnail dot" src="astral_hand_assets/astral_hand_band.jpg" onclick="currentSlide(2)">
+      </a>
+      <a href="#navigator">
+        <img class="thumbnail dot" src="astral_hand_assets/album_art.jpg" onclick="currentSlide(3)">
+      </a>
+      <a href="#star-lord">
+        <img class="thumbnail dot" src="astral_hand_assets/starlord-thumbnail.png" onclick="currentSlide(4)">
+      </a>
+      <a href="#insta">
+        <img class="thumbnail dot" src="astral_hand_assets/ig-thumbnail.png" onclick="currentSlide(5)">
+      </a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div id="media-row" class="row">
+      <div class="slide fade">
+        <video id="animation" class="" src="astral_hand_assets/astral_hand_animation.mp4" autoplay muted loop>
+          <source src="astral_hand_assets/astral_hand_animation.mp4" type="video/">
+        </video>
+        <h3 class="caption">First single "Navigator" available now on <a href="#">Bandcamp</a>.</h3>
+        <h3 class="caption">Debut album coming soon.</h3>
+      </div>
+      <img id="band-pic" class="slide fade" src="astral_hand_assets/astral_hand_band.jpg" alt="">
+      <iframe id="navigator" class="slide fade" src="https://open.spotify.com/embed/track/4jn6EGV0DHclai0pNvFRs2" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe id="star-lord" class="slide fade" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fastralhandband%2Fvideos%2F982353108917970%2F&show_text=false&width=560" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+      <div id="insta" class="slide fade row-wrap">
+        <a href="https://www.instagram.com/astral_hand/">
+          <img class="photo-grid col" src="astral_hand_assets/band3.jpg" alt="">
+          <img class="photo-grid col" src="astral_hand_assets/band4.jpg" alt="">
+          <img class="photo-grid col" src="astral_hand_assets/band1.jpg" alt="">
+          <img class="photo-grid col" src="astral_hand_assets/band2.jpg" alt="">
+        </a>
+      </div>
+    </div>
+
+    <div class="col accordion">
+        <a class="quote-link center-text" href="#panel1" onclick="togglePanel(panel1)">
+          <h1>Bio</h1>
+        </a>
+        <div id="panel1" class="accordion-content">
+          <p>ASTRAL HAND is a 4-piece heavy-psych band that channels a deeply cosmic mood. By using synth-driven melodies, fuzzed-out guitar riffs, thundering drums, and lyrical themes meditating on interstellar deities, ASTRAL HAND searches for life and love in the universe at large.</p>
+          <p>Over the course of the past 2 years ASTRAL HAND has been carefully programming their very first transmission.  After recording their debut album, Lords Of Data, with Shane Hochstettler of Howl Street Studios throughout early 2020, Al Kraemer, Victor Buell, Anthony Smith, and Dan Dahl have been patiently waiting in the shadows for their moment of action.  After spending months in the musical purgatory caused by the Covid-19 pandemic (some might call it Hell), the time has come for the Lords Of Data to step into the light.</p>
+          <p>Astral Hand is currently seeking label representation.</p>
+        </div>
+    </div>
+    <div class="col accordion">
+      <a class="accordion-btn quote-link center-text" href="#panel2" onclick="togglePanel(panel2)">
+        <h1>Press</h1>
+      </a>
+      <div id="panel2" class="accordion-content">
+        <a class="quote-link" href="http://theobelisk.net/obelisk/2019/04/04/astral-hand-universe-machine-release/">
+          <blockquote cite="http://theobelisk.net/obelisk/2019/04/04/astral-hand-universe-machine-release/">
+          “Perhaps you feel the galaxy could stand a good smiting.  Fair.  Meet Astral Hand from Milwaukee.  The band arrives as the result of a maybe-permanent teardown of their former outfit, Calliope, whose third and seemingly final album, Chapel Perilous, came out in 2018.  Same dudes, new vibe, new name.”
+          </blockquote>
+          <blockquote>
+            <i>- The Obelisk </i>
+          </blockquote>
+        </a>
+        <a class="quote-link" href="https://www.psychedelicbabymag.com/2020/10/navigator-by-astral-hand.html">
+          <blockquote cite="https://www.psychedelicbabymag.com/2020/10/navigator-by-astral-hand.html">
+          "In ‘Navigator (debut single),’ repetitive, polyrhythmic percussion and guitar riffs are accompanied by smooth synth melodies and vocal harmonies that transport you to a time where travel between star-systems might be a part of everyday life.”
+          </blockquote>
+          <blockquote>
+            <i>- It’s Psychedelic Baby Magazine</i>
+          </blockquote>
+        </a>
+      </div>
+    </div>
+
+    <div class="col accordion">
+      <a class="accordion-btn quote-link center-text" href="#panel3" onclick="togglePanel(panel3)">
+        <h1>Contact</h1>
+      </a>
+      <div id="panel3" class="accordion-content center-text">
+        <a class="quote-link" href="mailto:astralhandband@gmail.com">astralhandband@gmail.com</a>
+
+      </div>
+    </div>
+    <div class="footer ">
+      <div class="row">
+        <div class="col text-white">
+          <a class="fa fa-facebook" target="_blank" href="https://www.facebook.com/astralhandband"></a>
+          <a class="fa fa-instagram" target="_blank" href="https://www.instagram.com/astral_hand/"></a>
+          <a class="fa fa-twitter" target="_blank" href="https://twitter.com/AstralHand"></a>
+          <a class="fa fa-spotify" href="https://open.spotify.com/album/76ETdo8GaIOCAUUql6NHcG?highlight=spotify:track:4jn6EGV0DHclai0pNvFRs2" target="_blank"></a>
+          <a class="fa fa-bandcamp" target="_blank" href="https://astralhand.bandcamp.com/"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p id="copyright"> Copyright &copy 2020 Kevin Topel</p>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
