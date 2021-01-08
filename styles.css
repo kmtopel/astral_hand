@@ -48,6 +48,7 @@ body {
   border-radius: 15px;
   width: 85%;
   height: auto;
+  max-height: 600px;
   display: none;
 }
 .dot {
@@ -146,6 +147,7 @@ body {
   max-width: 90%;
   width: auto;
   height: auto;
+
 }
 #contact {
   padding-bottom: 40px;
@@ -156,4 +158,8 @@ body {
 #copyright {
   font-size: 80%;
   opacity: 50%;
+}
+#band-pic {
+  width: auto;
+  height: auto;
 }
