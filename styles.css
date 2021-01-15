@@ -2,9 +2,13 @@
   font-family: avantGardepro;
   src: url(astral_hand_assets/fonts/ITCAvantGardePro-Demi.otf);
 }
+html {
+    height: 100%;
+}
 body {
   background-color: black;
   font-family: avantGardepro;
+  height: 100%;
 }
 
 .card, .card-header, .card-body {
