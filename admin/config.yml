@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: astral_hand
-  branch: netlify_cms
+  branch: netlifly_cms
 media_folder: "assets"
 collections:
   - name: "media"
