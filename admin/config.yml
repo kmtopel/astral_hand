@@ -7,4 +7,4 @@ collections:
     label: "Media Item"
     folder: "_media"
     fields:
-      - {label: "Title"}
+      - {label: "Title", name: "Title"}
