@@ -1,6 +1,7 @@
 backend:
   name: github
-  branch: master # Branch to update (optional; defaults to master)
+  repo: astral_hand
+  branch: netlify_cms
 media_folder: "assets"
 collections:
   - name: "media"
