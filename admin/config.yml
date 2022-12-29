@@ -3,4 +3,8 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 media_folder: "assets"
 collections:
-  - name: "settings"
+  - name: "media"
+  - label: "Media Item"
+  - folder: "_media"
+  fields:
+    - {label: "Title"}
