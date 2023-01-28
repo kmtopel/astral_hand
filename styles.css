@@ -9,6 +9,7 @@ body {
   background-color: black;
   font-family: avantGardepro;
   height: 100%;
+  min-width: 100%;
 }
 
 a {
@@ -17,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: lightslategray;
+  color: #01d1ff !important;
   text-decoration: none;
 }
 
@@ -25,6 +26,22 @@ ul {
   list-style-type: none;
 }
 
+#headline-text {
+
+}
+
+#yt-embed {
+  width: 100%;
+  max-width: 607px;
+}
+
+#download-link {
+  color: #01d1ff;
+}
+
+#download-link:hover {
+  color:#00a8cd;
+}
 
 .card, .card-header, .card-body {
   border: none;
